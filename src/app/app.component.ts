@@ -40,7 +40,11 @@ export class MyApp {
         });
     }
 
-    openPage(page) {
-        this.nav.setRoot(page.component);
+    goHome() {
+        this.nav.push(MyTeams);
+    }
+
+    goToTournament() {
+        this.nav.push(Tournaments);
     }
 }
