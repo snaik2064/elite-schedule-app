@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TeamsDetail } from '../teams-detail/teams-detail';
+
+import { TeamHome } from '../team-home/team-home';
 
 @IonicPage()
 @Component({
@@ -20,7 +21,7 @@ export class Teams {
     }
 
     itemTapped($event, team) {
-        this.navCtrl.push(TeamsDetail, team);
+        this.navCtrl.push(TeamHome, team);
     }
 
     ionViewDidLoad() {

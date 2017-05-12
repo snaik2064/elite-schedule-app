@@ -8,7 +8,8 @@ import { Teams } from '../pages/teams/teams';
 import { TeamsDetail } from '../pages/teams-detail/teams-detail';
 import { MyTeams } from '../pages/my-teams/my-teams';
 import { Game } from '../pages/game/game';
-
+import { Standings } from '../pages/standings/standings';
+import { TeamHome } from '../pages/team-home/team-home';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,6 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
         TeamsDetail,
         MyTeams,
         Game,
+        Standings,
+        TeamHome,
     ],
     imports: [
         BrowserModule,
@@ -34,6 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
         TeamsDetail,
         MyTeams,
         Game,
+        Standings,
+        TeamHome,
     ],
     providers: [
         StatusBar,

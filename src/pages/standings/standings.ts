@@ -3,15 +3,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-    selector: 'page-teams-detail',
-    templateUrl: 'teams-detail.html',
+    selector: 'page-standings',
+    templateUrl: 'standings.html',
 })
-export class TeamsDetail {
-
-    team: any;
+export class Standings {
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
-        this.team = this.navParams.data;
+    }
+
+    ionViewDidLoad() {
+        console.log('ionViewDidLoad Standings');
     }
 
 }

@@ -8,6 +8,8 @@ import { Teams } from '../pages/teams/teams';
 import { TeamsDetail } from '../pages/teams-detail/teams-detail';
 import { MyTeams } from '../pages/my-teams/my-teams';
 import { Game } from '../pages/game/game';
+import { Standings } from '../pages/standings/standings';
+import { TeamHome } from '../pages/team-home/team-home';
 
 @Component({
     templateUrl: 'app.html'
@@ -29,6 +31,9 @@ export class MyApp {
             { title: 'TeamsDetail', component: TeamsDetail },
             { title: 'MyTeams', component: MyTeams },
             { title: 'Game', component: Game },
+            { title: 'Standings', component: Standings },
+            { title: 'TeamHome', component: TeamHome },
+
         ];
 
     }
